@@ -39,26 +39,26 @@ public class calculadora {
                 case 1:
                     double soma;
                     soma = p_v + s_v;
-                    System.out.println("A soma dos numeros eh: "+soma);
+                    System.out.println("A soma dos numeros é: "+soma);
                     break;
                 case 2:
                     double sub;
                     sub = p_v - s_v;
-                    System.out.println("A subtracao dos valores eh: "+sub);
+                    System.out.println("A subtracao dos valores é: "+sub);
                     break;
                 case 3:
                     double div;
                     if (s_v == 0){
-                        System.out.println("Erro, nao eh possivel dividir por 0");
+                        System.out.println("Erro, nao eé possivel dividir por 0");
                     } else {
                         div = p_v / s_v;
-                        System.out.println("A divisao dos valores eh: "+div);
+                        System.out.println("A divisão dos valores eh: "+div);
                     }
                     break;
                 case 4:
                     double multi;
                     multi = (double)p_v * s_v;
-                    System.out.println("A multiplicacao dos valores eh: "+multi);
+                    System.out.println("A multiplicacão dos valores é: "+multi);
                     break;
             }
 
@@ -66,7 +66,7 @@ public class calculadora {
             System.out.println("");
         }while(true);
 
-        System.out.println("Sessao finalizada!!");
+        System.out.println("Sessão finalizada!!");
         sc.close();
     }
 }
